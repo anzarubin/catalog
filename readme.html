@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Obscure</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        .odd {
+            width: 120px;
+            padding-left: 10px;
+        }
+        .even {
+            width: 250px;
+            padding-left: 10px;
+        }
+        .ref {
+            width: 500px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Новость</h2>
+    <table class="table-bordered table-hover">
+        <tr>
+            <th class="odd">type<span style="color:red">*</span></th>
+            <th class="even">Articles</th>
+        </tr>
+        <tr>
+            <td class="odd">id</td>
+            <td class="even">номер статьи</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Articles&id=1">
+                http://obscure.cf/?type=Articles&id=1</a></td>
+        </tr>
+        <tr>
+            <td class="odd">name</td>
+            <td class="even">название статьи</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Articles&name=Error expedita et amet corporis">
+                http://obscure.cf/?type=Articles&name=Error expedita et amet corporis</a></td>
+        </tr>
+        <tr>
+            <td class="odd">author_name</td>
+            <td class="even">имя автора</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Articles&author_name=Isac">
+                http://obscure.cf/?type=Articles&author_name=Isac</a></td>
+        </tr>
+        <tr>
+            <td class="odd">author_id</td>
+            <td class="even">id автора</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Articles&author_id=1">
+                http://obscure.cf/?type=Articles&author_id=1</a></td>
+        </tr>
+        <tr>
+            <td class="odd">rubric_id</td>
+            <td class="even">id рубрики</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Articles&rubric_id=1">
+                http://obscure.cf/?type=Articles&rubric_id=1</a></td>
+        </tr>
+    </table>
+    
+    <h2>Автор</h2>
+    <table class="table-bordered table-hover">
+        <tr>
+            <th class="odd">type<span style="color:red">*</span></th>
+            <th class="even">Authors</th>
+        </tr>
+        <tr>
+            <td class="odd">id</td>
+            <td class="even">поиск по id автора (" * " - все)</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Authors&id=1">
+                http://obscure.cf/?type=Authors&id=1</a></td>
+        </tr>
+        <tr>
+            <td class="odd">name</td>
+            <td class="even">по имени автора</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Authors&name=Isac">
+                http://obscure.cf/?type=Authors&name=Isac</a></td>
+        </tr>
+    </table>
+
+    <h2>Рубрика</h2>
+    <table class="table-bordered table-hover">
+        <tr>
+            <th class="odd">type<span style="color:red">*</span></th>
+            <th class="even">Rubrics</th>
+        </tr>
+        <tr>
+            <td class="odd">id</td>
+            <td class="even">поиск по id рубрики (" * " - все)</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Rubrics&id=1">
+                http://obscure.cf/?type=Rubrics&id=1</a></td>
+        </tr>
+        <tr>
+            <td class="odd">name</td>
+            <td class="even">по названию рубрики</td>
+            <td class="ref"><a href="http://obscure.cf/?type=Rubrics&name=in">
+                http://obscure.cf/?type=Rubrics&name=in</a></td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
